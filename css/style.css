@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+    font-family: 'Coustard', serif;
+}
+
+h1 {
+    color: rgb(112, 112, 190);
+    font-size: 5em;
+    font-family: 'Coustard', serif;
+}
+
+#awe {
+    color: red;
+}
+
+#books {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 2vh;
+
+}
+
+/* .book-tile {
+
+} */
+
+.book-tile:hover {
+    background-color: rgb(112, 112, 190);
+    color: white;
+    transition: .6s;
+    cursor: pointer;
+}
+
+#tile-top-section {
+    
+}
+
+#tile-top-section:hover {
+    background-color: rgb(112, 112, 190);
+}
+
+img {
+    height: 300px;
+    width: 200px;
+}
+
+h3#bottom {
+    color: white;
+}
+
+button {
+    width: 150px;
+    height: 50px;
+    font-family: 'Coustard', serif;
+}
+
+button:hover {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(112, 112, 190);
+    transition: .6s;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+i {
+    font-size: 6rem;
+}
+
+ #hp_price, #msk_price, #zoo_price, #mr_price, #o_price {
+    line-height: 0;
+}
+
